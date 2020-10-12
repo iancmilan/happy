@@ -3,7 +3,7 @@
 ![Project Image](.github/happy.png)
 ![web] ![top_language] ![repo-size] ![license]
 
-### Projeto desenvolvido durante a #NextLevelWeek da [Rocketseat] utilizando as tecnologias **React**, **React Native** e **Node.js**.
+### Projeto que está sendo desenvolvido durante a #NextLevelWeek da [Rocketseat] e utilizara as tecnologias **React**, **React Native** e **Node.js**.
 
 </div>
 
