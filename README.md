@@ -9,8 +9,7 @@
 
 ## :bookmark: Sobre
 
-Leve felicidade para o mundo. O **Happy** é uma plataforma que visa conectar pessoas com orfanatos, seu principal intuito é alegrar o dia das crianças e trazer
-informações sobre como realizar a visitação.
+Leve felicidade para o mundo. O **Happy** é uma plataforma que visa conectar pessoas com orfanatos, seu principal intuito é alegrar o dia das crianças através de visitas e trazer informações sobre como realizar a visitação.
 
 
 ## :construction_worker: :construction: Em construção :construction: :construction_worker:
