@@ -2,6 +2,7 @@ import React, { ChangeEvent, FormEvent, useState } from "react";
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
 import { useHistory } from "react-router-dom";
+import { useToasts } from 'react-toast-notifications';
 
 import { FiPlus } from "react-icons/fi";
 
@@ -13,6 +14,8 @@ import api from "../services/api";
 import '../styles/pages/create-orphanage.css';
 
 export default function CreateOrphanage() {
+  const { addToast } = useToasts();
+
   const history = useHistory();
 
   const [ position, setPosition ] = useState({ latitude: 0, longitude: 0 });
@@ -66,12 +69,18 @@ export default function CreateOrphanage() {
       data.append('images', image);
     });
 
-    await api.post('orphanages', data);
+    try{
+      await api.post('orphanages', data);
+    }catch(e){
+      addToast('Um erro ocorreu, verifique os campos e tente novamente!', { appearance: 'error' });
+      return;
+    }
 
-    alert('Cadastro realizado com sucesso!');
+    addToast('Cadastro realizado com sucesso!', { appearance: 'success' });
 
-    history.push('/app');
+    setTimeout(() => history.push('/app'), 2000);
   }
+
   return (
     <div id="page-create-orphanage">
       <Sidebar />
