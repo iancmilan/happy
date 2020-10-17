@@ -12,7 +12,7 @@
 Leve felicidade para o mundo. O **Happy** é uma plataforma que visa conectar pessoas com orfanatos, seu principal intuito é alegrar o dia das crianças através de visitas e trazer informações sobre como realizar a visitação.
 
 
-## :rocket: Tecnologias
+## :computer: Tecnologias
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -20,6 +20,21 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
+
+## :rocket: A milha extra
+
+Completar a semana de workshops é o primeiro passo para alavancar na direção de nossos objetivos, mas para nos destacar precisamos percorrer a milha extra! Abaixo deixo algumas features que adicionei no projeto e conforme eu for aprimorando conhecimento adicionarei mais.
+
+### Animação na landing page utilizando o Framer Motion:
+
+![Landing](.github/landing.gif)
+
+### Toast notifications na página de criação de orfanatos:
+
+![Success](.github/success.gif)
+![Error](.github/error.gif)
+
+### 
 
 ## :wrench: Como utilizar
 
