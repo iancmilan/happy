@@ -41,6 +41,10 @@
     line-height: 34px;
 }
 
+.content-wrapper .img-container .happy {
+  overflow: visible;
+}
+
 .content-wrapper .location {
     position: absolute;
     right: 0;
