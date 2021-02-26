@@ -90,9 +90,9 @@ Esse projeto está sob licensa [MIT](LICENSE).
 [Rocketseat]: https://rocketseat.com.br/
 
 <!-- Bagdes -->
-[web]: https://img.shields.io/badge/web-React-63DAFA?style=flat-square
-[server]: https://img.shields.io/badge/server-Node.js-brightgreen?style=flat-square
-[mobile]: https://img.shields.io/badge/mobile-React%20Native-63DAFA?style=flat-square
-[top_language]: https://img.shields.io/github/languages/top/iancmilan/happy?style=flat-square
-[license]: https://img.shields.io/github/license/iancmilan/happy?style=flat-square
-[repo-size]: https://img.shields.io/github/repo-size/iancmilan/happy?style=flat-square
+[web]: https://img.shields.io/badge/web-React-16bfcb?style=flat-square&labelColor=121214
+[server]: https://img.shields.io/badge/server-Node.js-16bfcb?style=flat-square&labelColor=121214
+[mobile]: https://img.shields.io/badge/mobile-React%20Native-16bfcb?style=flat-square&labelColor=121214
+[top_language]: https://img.shields.io/github/languages/top/iancmilan/happy?style=flat-square&color=16bfcb&labelColor=121214
+[license]: https://img.shields.io/github/license/iancmilan/happy?style=flat-square&color=16bfcb&labelColor=121214
+[repo-size]: https://img.shields.io/github/repo-size/iancmilan/happy?style=flat-square&color=16bfcb&labelColor=121214
